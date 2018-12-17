@@ -1,0 +1,2 @@
+# Enron-Email-Clustering
+In previous implementations of clustering the Enron Dataset, a traditional KMeans approach was taken on the TF-IDF vectors of emails. However, after thoroughly studying the dataset and understanding the limitations of the previous approach, this implementation uses a different approach and results in much better results. After a thorough cleaning of the emails, the cleaned emails were trained on a doc2vec model and then they clustered using KMeans and DBScan. The results can be found in the project report attached.  
